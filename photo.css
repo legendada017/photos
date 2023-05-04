@@ -67,7 +67,7 @@ body{
 		}
 		@media (max-height: 1605px){
 			body{
-				background-size: 150% 800%;
+				background-size: 150% 1600%;
 			}
 		}
 		@media (max-width: 720px){
