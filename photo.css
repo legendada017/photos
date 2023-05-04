@@ -65,6 +65,20 @@ body{
 				left: 60px;
 				transition: left 3s ease;}
 		}
+		@media (max-height: 1600px){
+			body{
+				background-size: auto 800%;
+			}
+		}
+		@media (max-width: 720px){
+			
+			.wrapper {
+				display: block;
+				position: absolute; 
+				top: 150px;
+				left: 90px;
+				transition: left 3s ease;}
+		}
 		@media (max-width: 600px){
 			body{
 				background-size: auto 450%;
