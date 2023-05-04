@@ -23,7 +23,7 @@
 	100%{opacity: 1;}
 }
 
-body{background: url(pctrs/ocean_black.jpg);}
+body{min-width: 1200px; background: url(pctrs/ocean_black.jpg);}
 
 	.wrapper{
 		display: flex;
