@@ -182,7 +182,7 @@ body{background: url(pctrs/ocean_black.jpg) no-repeat; background-size: auto cov
 				.ii{transform: scale(0.5, 0.5);}
 		}
 		@media (max-width: 320px){
-			.body {margin-top: 10%;
+			.body {padding-top: 300px;
 				max-width: 320px;}
 
 				.ii{transform: scale(0.35, 0.35);}
