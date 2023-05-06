@@ -150,7 +150,7 @@ body{
 
 				.wrapper{transform: translateY(200px); left: 45%;}
 
-				.ii{width: 0; transform: scale(1, 1);}
+				.ii{transform: scale(1, 1);}
 
 				.photos{padding-top: 400px;}
 		}
@@ -162,7 +162,7 @@ body{
 
 				.wrapper{transform: translateY(200px); left: 45%;}
 
-				.ii{width: 0; transform: scale(0.9, 0.9);}
+				.ii{transform: scale(0.9, 0.9);}
 
 				.photos{padding-top: 360px;}
 		}
@@ -172,7 +172,7 @@ body{
 
 				.wrapper{transform: translateY(150px); left: 45%;}
 
-				.ii{width: 0; transform: scale(0.8, 0.8);}
+				.ii{transform: scale(0.8, 0.8);}
 
 				.photos{padding-top: 320px;}
 		}
@@ -182,7 +182,7 @@ body{
 
 				.wrapper{transform: translateY(150px); left: 45%;}
 
-				.ii{width: 0; transform: scale(0.7, 0.7);}
+				.ii{transform: scale(0.7, 0.7);}
 
 				.photos{padding-top: 300px;}
 		}
@@ -192,7 +192,7 @@ body{
 
 				.wrapper{transform: translateY(150px); left: 45%;}
 
-				.ii{width: 0; transform: scale(0.6, 0.6);}
+				.ii{transform: scale(0.6, 0.6);}
 
 				.photos{padding-top: 230px;}
 		}
@@ -202,7 +202,7 @@ body{
 
 				.wrapper{transform: translateY(150px); left: 43%;}
 
-				.ii{width: 0; transform: scale(0.5, 0.5);}
+				.ii{transform: scale(0.5, 0.5);}
 
 				.photos{padding-top: 120px;}
 		}
@@ -212,7 +212,7 @@ body{
 
 				.wrapper{transform: translateY(140px); left: 43%;}
 
-				.ii{width: 0; transform: scale(0.35, 0.35);}
+				.ii{transform: scale(0.35, 0.35);}
 
 				.photos{padding-top: 120px;}
 		}
