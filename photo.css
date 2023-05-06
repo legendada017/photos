@@ -23,14 +23,17 @@
 	100%{opacity: 1;}
 }
 
-body{background: url(pctrs/ocean_black.jpg) no-repeat; background-size: cover cover; margin-top: -10%;}
+body{background: url(pctrs/ocean_black.jpg) no-repeat; background-size: auto cover;}
 
 	.wrapper{
+		margin-top: -10%;
 		width: 100%;
 		height: 25vh;
+		
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		
 		position: relative;
 		
 		object-fit: cover;
