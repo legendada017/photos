@@ -196,7 +196,7 @@ body{}
 
 				.ii{transform: scale(0.35, 0.35);}
 		}
-		@media (max-width: 768px){
+		@media (max-width: 1025px){
 			.photos {
 					width: 80%;
 					height: 15%;
