@@ -208,16 +208,21 @@ body{
 
 		@media screen and (max-width: 1200px){
 			.photos {
+					display: flex;
+					justify-content: center;
+					align-items: center;
 					max-width: calc(1000px + 10 *(100vw / 1200));
 					max-height: calc(300px + 10 *(100vw / 1200));
 					position: absolute;
 					top: 20%;
-					left: 13%;
+					left: 10%;
 					overflow: visible;}
 
 					.photos span{
 						display: block;
-						width: 100%;
+						width: 50%;
+						padding: 5px 10px;
+						margin-left: 33%;
 						height: initial;
 						text-align: center;
 						font-weight: bold;
@@ -235,14 +240,15 @@ body{
 						display: none;}
 
 					.photos:hover div{
-						
+						display: flex;
 						width: 30%;
 						height: 100%;
-						display: inline-block;}
+						}
 
 						.focus:hover{
 							position: absolute;
-							width: initial;
+							left: -2.5%;
+							width: 100%;
 							height: initial;
 							overflow: hidden;}
 		}
