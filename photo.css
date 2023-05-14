@@ -3,7 +3,7 @@
 	box-sizing: border-box;}
 
 @keyframes anim{
-	0%{transform: perspective(1000px) rotateY(0deg) rotateX(-10deg)}
+	0%{transform: perspective(1000px) rotateY(0deg) rotateX(-10deg);}
 	100%{transform: perspective(1000px) rotateY(360deg) rotateX(-10deg);}
 }
 @keyframes show{
@@ -22,27 +22,36 @@
 	90%{opacity: 0;}
 	100%{opacity: 1;}
 }
-
-body{}
+html{width: 100%;}
+body{
+	width: 100%;
+	height: 150%;
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;}
 
 	.backg img{
+		display: flex;
+		flex: 1 0 100%;
 		width: 100%;
-		height: 100%;
+		height: 150%;
 		position: absolute;
 		top: 0;
 		left: 0;
-		z-index: 0;}
+		z-index: 0;
+		overflow: visible;
+		object-fit: auto;}
 
 	.wrapper{z-index: 1;
 		width: 100%;
-		height: 25vh;
+		height: 50vh;
 		
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		
 		position: relative;
-		top: 50%;
+		
 		
 		object-fit: cover;
 		animation: rotZ 15s linear 1;}
@@ -122,10 +131,12 @@ body{}
 		.photos:hover{
 			bottom: -200px;
 			transition: bottom 3s linear;}
+
+			.photos span{
+				font-size: calc(25px + 10 *(100vw / 1024));
+				display: none;}
 		
 		.photos div{
-			width: 60px;
-			height: 70px;
 			margin: 2%;
 			display: inline-block;}
 
@@ -133,11 +144,6 @@ body{}
 				width: 100%;
 				height: 100%;}
 
-				.photos .focus:hover{
-					width: initial;
-					height: initial;
-					position: absolute;
-					bottom: 35px;}
 
 					.focus1:hover{left: -5px;}
 					.focus2:hover{left: -5px;}
@@ -153,7 +159,7 @@ body{}
 					.focus12:hover{left: -5px;}
 					.focus13:hover{left: 17px;}
 					.focus14:hover{left: -5px;}
-		@media(max-height: ){}
+
 		@media (max-width: 1280px){
 			.body {
 				max-width: 1280px;}
@@ -196,47 +202,44 @@ body{}
 
 				.ii{transform: scale(0.35, 0.35);}
 		}
-		@media (max-width: 1025px){
+
+		@media screen and (max-width: 1025px){
 			.photos {
 					width: 80%;
-					height: 15%;
+					height: 10%;
 					position: absolute;
 					top: 20%;
-					left: 15%;
-					overflow: visible;
-					border: 1px solid black;
-					background: yellow;}
+					left: 13%;
+					overflow: visible;}
 
 					.photos span{
 						display: block;
 						width: 100%;
-						height: 100%;
+						height: initial;
 						text-align: center;
-						color: black;
 						font-weight: bold;
-						font-size: 3rem;}
+						border: 1px solid black;
+						background: yellow;}
 
 						.photos span:hover{opacity: 0;}
 
 					.photos:hover{
 						width: 90%;
-						background: transparent;
-						border: none;
 						bottom: 0;}
 
 					.photos div {
-						
+						object-fit: cover;
 						display: none;}
 
 					.photos:hover div{
+						
 						width: 30%;
-						height: 30%;
+						height: 100%;
 						display: inline-block;}
 
-						.photos .focus:hover{position: absolute;
-							overflow: visible;
-							bottom: 0;
-							top: 0;
-							left: 0;
-						}
+						.focus:hover{
+							position: absolute;
+							width: initial;
+							height: initial;
+							overflow: hidden;}
 		}
