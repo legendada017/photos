@@ -136,7 +136,7 @@ body{
 			transition: bottom 3s linear;}
 
 			.photos span{
-				font-size: calc(25px + 10 *(100vw / 1024));
+				font-size: calc(25px + 10 *(100vw / 1200));
 				display: none;}
 		
 		.photos div{
@@ -206,7 +206,7 @@ body{
 				.ii{transform: scale(0.35, 0.35);}
 		}
 
-		@media screen and (max-width: 1025px){
+		@media screen and (max-width: 1200px){
 			.photos {
 					max-width: 80%;
 					max-height: 20%;
