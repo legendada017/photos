@@ -215,7 +215,7 @@ body{
 					max-height: calc(300px + 10 *(100vw / 1200));
 					position: absolute;
 					top: 20%;
-					left: 10%;
+					left: 7.5%;
 					overflow: visible;}
 
 					.photos span{
@@ -247,7 +247,7 @@ body{
 
 						.focus:hover{
 							position: absolute;
-							left: -2.5%;
+							left: 0;
 							width: 100%;
 							height: initial;
 							overflow: hidden;}
