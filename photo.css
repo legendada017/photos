@@ -116,14 +116,20 @@ body{
 
 		.photos{
 			z-index: 2;
-			margin: 0 auto;}
+			margin: 0 auto;
+			animation: opac_photo 15s linear 1 forwards;}
 
 			.photos div{
 				width: 100%;}
 
 				.photos .focus{
 					width: 100%;
+					opacity: 0.3;
+					transition: opacity 0.5s linear;
 				}
+					.photos .focus:hover{
+						opacity: 1;
+						transition: opacity 1s linear;}
 
 		@media (max-width: 1280px){
 			.body {
@@ -136,10 +142,6 @@ body{
 				max-width: 1024px;}
 
 				.ii{transform: scale(0.9, 0.9);}
-
-			.photos{
-				padding: 0 10px;
-			}
 		}
 		@media (max-width: 768px){
 			.body {
